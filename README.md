@@ -1,4 +1,4 @@
-# alfred-emojil-snippet
+# alfred-emoji-snippet
 
 Emoji Snippet of Alfred3 📕
 

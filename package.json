@@ -4,11 +4,11 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "prebuild": "npm run cleanup",
+    "prebuild": "rm -f dist/*",
     "build": "npm run build:snippet && npm run build:zip",
     "build:snippet": "node src/index.js",
-    "build:zip": "zip -jmq dist/Emoji.alfredsnippets dist/*.json",
-    "cleanup": "rm -f dist/*",
+    "build:zip": "zip -jq dist/Emoji.alfredsnippets dist/*.json icon.png info.plist",
+    "postbuild": "rm -f dist/*.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

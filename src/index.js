@@ -8,7 +8,7 @@ const generateEmojiSnippet = (name, char) => {
     const entry = {
       alfredsnippet: {
         uid: uid,
-        keyword: `:${name}::`,
+        keyword: `${name}`,
         snippet: char,
         name: `${char} :${name}:`,
         dontautoexpand: false

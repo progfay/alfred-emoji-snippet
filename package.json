@@ -15,8 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "emojilib": "^2.4.0",
-    "file-saver": "^2.0.1",
-    "jszip": "^3.2.0",
     "uuid": "^3.3.2"
   }
 }
